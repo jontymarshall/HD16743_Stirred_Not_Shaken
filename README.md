@@ -14,11 +14,7 @@ lone -- instructions on how to run the entire analysis, either through Makefile,
 ├── env			<- Will contain the Python executable files and installed libraries for your virtualenv environment
 ├── .gitignore		<- Avoids uploading data, credentials, outputs, system files etc
 ├── LICENCE
-├── Makefile		<- Makefile with commands like `make data` or `make train`
 ├── models		<- Trained and serialized models, model predictions, or model summaries
-├── notes		<- Data analysis notes. Can also contain jupyter notebook
-│   ├── project_notes.md
-│   └── project_notes.org
 ├── paper		<- Manuscript or other dissemination files
 │   ├── biblio.bib
 │   ├── definitions.tex
@@ -32,21 +28,6 @@ lone -- instructions on how to run the entire analysis, either through Makefile,
 ├── references		<- Data dictionaries, manuals, etc.
 ├── requirements.txt	<- Install the environment dependencies with: `pip install -r requirements.txt`
 ├── runall.py		<- execute the pipeline in python
-├── runall.R		<- or, execute the pipeline in R
-├── setup.py		<- makes project pip installable (pip install -e .) so src can be imported
-├── src			<- Source code for use in this project.
-│   ├── data		<- Scripts to download or generate data
-│   │   └── make_dataset.py
-│   ├── features	<- Scripts to turn raw data into features for modeling
-│   │   └── build_features.py
-│   ├── functions.R
-│   ├── __init__.py	<- Makes src a Python module
-│   ├── models		<- Scripts to train models and then use trained models to make predictions. Scripts to fit data and features
-│   │   ├── predict_model.py
-│   │   └── train_model.py
-│   ├── utilities.R
-│   └── visualization	<- Scripts to create exploratory and results oriented visualizations
-│       └── visualize.py
 └── tox.ini		<- Automate testing, cf. https://tox.readthedocs.io/en/latest/.
 ```
 
