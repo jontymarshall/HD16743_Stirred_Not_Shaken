@@ -1,0 +1,1 @@
+Table of visibilities (u,v,Re,Im,w) for HD 16743 exported using UVTable after merging the channels and spws into a single value using CASA.

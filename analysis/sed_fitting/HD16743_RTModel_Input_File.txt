@@ -1,0 +1,30 @@
+#dust properties
+composition : astrosil #optical constants - '.lnk'
+density     : 3.3 #gcm^-3
+amin        : 5.01 #smallest grain size in um
+amax        : 1000.0 #largest grain size in um
+ngrain      : 101  #number of grain sizes in the model
+q           : -3.72 #exponent of dust size distribution
+mdust       : 4.38e-3 #Mass of dust in M_Earth
+lmin        : 0.1 #shortest wavelength in SED in um
+lmax        : 3000.0 #longest wavelength in SED in um
+nwav        : 221 #number of wavelengths in the model
+#star properties
+stype       : spectrum #stype either 'spectrum' or 'blackbody'
+lstar       : 5.11 #lstar in L_Sol
+rstar       : 1.58 #rstar in R_Sol
+tstar       : 6910.0 #tstar in K
+dstar       : 57.932 #dstar in pc
+model       : lte069-4.5-0.0a+0.0.BT-NextGen.7.dat.txt #photosphere model filename
+#disc properties
+dtype       : gauss #dtype one of 'onepl', 'twopl', 'gauss'
+nring       : 201 #number of annuli in the disc model
+rpeak       : 153. #peak of disc in au (Gaussian model)
+rfwhm       : 88. #fwhm of disc in au (Gaussian model)
+rin         : 40. #inner edge of the disc in au (1PL model)
+rout        : 60. #outer edge of the disc in au (1PL model)
+alpha_in    : 10. #exponent of inner slope (2PL model)
+alpha_out   : -1. #exponent of outer slope (1/2PL model)
+#other properties
+directory   : /Users/jonty/mydata/stirred_discs/hd16743/sed_fitting/ #working directory
+prefix      : HD16743_RTModel_final #prefix for output files

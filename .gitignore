@@ -1,3 +1,15 @@
 *~
 .*~
 
+analysis/scattered_light/.DS_Store
+analysis/scattered_light/hst_nicmos_elodie/.DS_Store
+data/processed/.DS_Store
+data/processed/alma/.DS_Store
+data/processed/alma/hd16743_calibrated_merged_briggs0.5.pb/.DS_Store
+data/processed/alma/hd16743_calibrated_merged_briggs0.5.residual/.DS_Store
+data/raw/.DS_Store
+models/.DS_Store
+paper/.DS_Store
+analysis/sed_fitting/.DS_Store
+analysis/.DS_Store
+.DS_Store

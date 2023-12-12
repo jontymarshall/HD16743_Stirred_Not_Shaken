@@ -1,0 +1,1 @@
+ALMA observations for HD 16743 can be downloaded from https://almascience.nrao.edu/aq/ and reduced using the observatory provided scripts. A file with the time, channel, and spw merged visibilities used in the analysis is provided in the 'models' directory as a .npy file.
